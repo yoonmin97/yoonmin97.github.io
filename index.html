@@ -27,9 +27,9 @@ layout: default
     {% else %}
       <span class="previous">&lt;&lt;</span>
     {% endif %}
-    {% for number in paginator.total_pages %}
+    {% for page in (1..paginator.total_pages) %}
         <span class="page_number">
-            {{ number }}
+            {{ page }}
         </span>
     {% endfor %}
     <!-- <span class="page_number ">
