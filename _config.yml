@@ -1,9 +1,9 @@
-title: Parchment
+title: yoonmin97
 author: pro-panda
 subtitle: The life of a frustrated engineer
 
-url: "https://rahulbothra.com"
-baseurl: "/parchment"
+url: "https://yoonmin97.github.io/"
+baseurl: ""
 
 footer_only_homepage: true
 footer_url: "https://github.com/rhl-bthr"
@@ -22,3 +22,6 @@ navbar:
    link: "about"
  - name: "Resume"
    absolute-link: "https://rahulbothra.com/cv.pdf"
+
+paginate: 5
+paginate_path: "/page/page:num/"
