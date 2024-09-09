@@ -35,8 +35,8 @@ layout: default
         <a href="https://yoonmin97.github.io/page/{{ page }}">
           {{ page }}
         </a>
-        site: {{ site.url }}
       {% endif %}
+      <a href="{{ site.url }}/page/{{page}}">1</a>
     </span>
   {% endfor %}
   {% if paginator.next_page %}
