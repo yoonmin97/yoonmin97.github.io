@@ -21,15 +21,15 @@ layout: default
     <hr>
 </div>
 {% endfor %}
-<div class="pagination">
+<div class="pagination" align="center">
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path }}" class="previous">&lt;&lt;</a>
     {% else %}
       <span class="previous">&lt;&lt;</span>
     {% endif %}
-    {% for post in paginator.posts %}
+    {% for number in paginator.total_pages %}
         <span class="page_number">
-            {{ paginator.page }}
+            {{ number }}
         </span>
     {% endfor %}
     <!-- <span class="page_number ">
