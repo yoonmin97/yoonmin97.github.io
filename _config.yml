@@ -24,4 +24,4 @@ navbar:
    absolute-link: "https://rahulbothra.com/cv.pdf"
 
 paginate: 5
-paginate_path: "/page/:num/"
+paginate_path: "/page/:num"
