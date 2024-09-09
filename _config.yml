@@ -14,14 +14,18 @@ favicon_location: assets/favicon.ico
 
 permalink: /:year-:month-:day-:title/
 sass:
-    style: compressed
-    sass_dir: css
+  style: compressed
+  sass_dir: css
 
-navbar:
- - name: "About"
-   link: "about"
- - name: "Resume"
-   absolute-link: "https://rahulbothra.com/cv.pdf"
+# 네비게이션
+# navbar:
+#  - name: "About"
+#    link: "about"
+#  - name: "Resume"
+#    absolute-link: "https://rahulbothra.com/cv.pdf"
 
+# 페이징
+# paginate: 한 페이지 당 보여줄 게시글 개수
+# paginate_path: 경로
 paginate: 5
 paginate_path: "/page/:num"
